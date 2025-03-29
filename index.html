@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meow🐱</title>
+    <link rel="icon" type="image/jpeg" href="caticon.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <!-- Add Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cat Gallery </div>
+            <div class="nav-links">
+                <a href="#" class="active" data-filter="all">All</a>
+                <a href="#" data-filter="cats">Kittens</a>
+                <a href="#" data-filter="adult">Adult Cats</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="gallery-grid">
+            <!-- Kitten Images -->
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=800&q=80" alt="Curious kitten with blue eyes" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=800&q=80" alt="Playful kitten in a basket" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?w=800&q=80" alt="Sleeping kitten" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80" alt="Two kittens cuddling" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=800&q=80" alt="Curious kitten looking up" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="cats">
+                <img src="https://images.unsplash.com/photo-1542736143-29a8432162bc?w=800&q=80" alt="Kitten playing with yarn" loading="lazy">
+            </div>
+
+            <!-- Adult Cat Images -->
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&q=80" alt="Majestic white cat" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80" alt="Orange cat with green eyes" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=800&q=80" alt="Elegant black cat" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="Sleepy cat relaxing" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800&q=80" alt="Cat stretching in sunlight" loading="lazy">
+            </div>
+            <div class="gallery-item" data-category="adult">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=800&q=80" alt="Wise cat portrait" loading="lazy">
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>get a job nigg💚</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/asstroiddestroyer/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
